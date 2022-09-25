@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentEnd="true"
+    android:layout_margin="6dp"
+    android:background="@drawable/sender_bg"
+    android:elevation="4dp">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="25dp"
+        >
+
+        <TextView
+            android:id="@+id/txtMessage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:padding="5dp"
+            android:textColor="@color/black"
+            android:paddingLeft="15dp"
+            android:text="@string/sentmessage"
+            android:textSize="18sp"
+            android:textStyle="normal"
+            />
+
+        <TextView
+            android:id="@+id/txtSend"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="3dp"
+            android:layout_gravity="bottom"
+            android:padding="5dp"
+            android:textColor="@color/black"
+            android:paddingLeft="15dp"
+            android:text="@string/receivermessage"
+            android:textSize="12sp"
+            android:textStyle="normal"
+            android:layout_marginEnd="10dp"/>
+    </LinearLayout>
+
+</RelativeLayout>

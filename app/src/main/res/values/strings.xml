@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">messageApp</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="enter_e_mail">Enter e-mail</string>
+    <string name="enter_password">Enter Password</string>
+    <string name="string_profile">Profile</string>
+    <string name="string_title">Title</string>
+    <string name="logout">Logout</string>
+    <string name="about">About</string>
+    <string name="enter_status">Enter Status</string>
+    <string name="enter_your_email">Enter your Email :</string>
+    <string name="enter_your_status">Enter your Status :</string>
+    <string name="enter_name">Enter Name :</string>
+    <string name="name_of_the_user">Name of the User</string>
+    <string name="email_of_user">Email of User :</string>
+    <string name="status_of_user">Status of User</string>
+    <string name="sending_the_message">sending the Message :</string>
+    <string name="receivermessage">receiverMessage</string>
+    <string name="sentmessage">sentMessage</string>
+</resources>

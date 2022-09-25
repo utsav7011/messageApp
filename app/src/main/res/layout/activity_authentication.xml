@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/myCOlor12"
+    tools:context=".AuthenticationActivity">
+
+    <ImageView
+        android:id="@+id/imgBackground"
+        android:layout_width="100dp"
+        android:layout_height="125dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="15dp"
+        android:contentDescription="Logo of app : "
+        android:scaleType="fitCenter"
+        android:layout_gravity="center"
+        android:src="@drawable/jiit_logo" />
+
+    <LinearLayout
+        android:id="@+id/firstLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/imgBackground"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/new_bg"
+        android:orientation="vertical">
+
+        <com.google.android.material.tabs.TabLayout
+            android:layout_width="match_parent"
+            android:id="@+id/tabLayoutAuthentication"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/view_bg"/>
+
+
+        <androidx.viewpager2.widget.ViewPager2
+            android:layout_width="match_parent"
+            android:layout_height="450dp"
+            android:id="@+id/viewPagerAuthentication"/>
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>
